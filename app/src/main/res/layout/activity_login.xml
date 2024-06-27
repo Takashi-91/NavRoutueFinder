@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD69D"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="677dp"
+        android:background="@drawable/ic_cover"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="341dp"
+            android:layout_height="215dp"
+            android:contentDescription="@string/logo_description"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="337dp"
+            android:layout_height="26dp"
+            android:fontFamily="@font/righteous"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="32dp"
+            android:text="@string/login"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp">
+
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="337dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/ic_field_cover"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="332dp"
+            android:layout_height="51dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/ic_field_cover"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="325dp"
+            android:layout_height="53dp"
+            android:background="@drawable/ic_button_cover"
+            android:backgroundTint="#FFCA28"
+            android:fontFamily="@font/righteous"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/login"
+            android:textColor="#000"
+            android:textSize="19sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp">
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/ViewLogin"
+            android:layout_width="328dp"
+            android:layout_height="68dp"
+            android:fontFamily="@font/righteous"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="@string/registerText"
+            android:textColor="#66B8FA"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
