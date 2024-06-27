@@ -71,9 +71,32 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="54dp">
+            android:layout_height="13dp" />
 
-        </FrameLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+
+            <Button
+                android:id="@+id/facebookBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="200dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/common_google_signin_btn_icon_light" />
+
+            <Button
+                android:id="@+id/googleBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="39dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/common_google_signin_btn_icon_dark" />
+        </RelativeLayout>
 
         <TextView
             android:id="@+id/ViewLogin"
