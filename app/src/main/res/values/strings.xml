@@ -15,5 +15,19 @@
     <string name="login">Login</string>
     <string name="registerText">Don\'t have an account? Register Here.</string>
     <string name="logo_description">\@Sring</string>
+    <string name="your_web_client_id">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</string>
+    <string name="register">Register</string>
+    <string name="loginText">Already have an account?.Then Login</string>
+    <string name="Username">Username</string>
+    <string name="Confirm">Confirm Password</string>
+    <string name="email_is_required">Email is required</string>
+    <string name="invalid_email_format">Invalid email format</string>
+    <string name="username_is_required">Username is required</string>
+    <string name="password_is_required">Password is required</string>
+    <string name="password_must_be_at_least_8_characters_long_contain_at_least_one_uppercase_letter_one_lowercase_letter_one_number_and_one_special_character">Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character</string>
+    <string name="confirm_password_is_required">Confirm Password is required</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="user_already_exists">User already exists</string>
+    <string name="facebook_app_id">7672237922831164</string>
 
 </resources>

@@ -2,8 +2,8 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
-
 }
+
 
 android {
     namespace = "com.example.navroutefinder"
@@ -35,7 +35,6 @@ android {
 }
 
 dependencies {
-
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("com.google.android.material:material:1.12.0")
@@ -46,7 +45,20 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.2")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2")
-    implementation ("com.google.android.gms:play-services-auth:21.2.0")
-
+    implementation("com.google.android.gms:play-services-auth:21.2.0")
+    implementation("com.google.firebase:firebase-database:21.0.0")
+}
+dependencies {
+    // Import the BoM for the Firebase platform
+    implementation(platform("com.google.firebase:firebase-bom:33.1.1"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-auth:23.0.0")
 
 }
+dependencies {
+    implementation ("com.facebook.android:facebook-login:11.3.0")
+    implementation ("com.facebook.android:facebook-core:11.3.0")
+    implementation ("androidx.annotation:annotation:1.8.0")
+    implementation ("com.facebook.android:audience-network-sdk:6.17.0")
+}
+
